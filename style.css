@@ -1,0 +1,18 @@
+table{
+    /* border-collapse é utilizado para definir o espeço entre o conteúdo e sua borda */border-collapse: collapse;
+     border: 1px solid rgb (140 140 140); /* define, em pixels, o tamanho do quadro ao redor da tabela */ 
+     font-family: rio; /* permite a troca de fontes */
+     font-size: 0.9rem; /* muda o tamanho da fonte */
+     letter-spacing: 1px /* permite alterar o espaçamento das letras */
+  }
+  
+  thead,
+  tfoot{
+    background-color: rgb(200 0 0);
+  } /* altera a cor do rodapé */
+  
+  th,
+  td {
+    border: 1px solid rgb(160 160 160); 
+    padding: 5px 0.1px
+  }
